@@ -1,0 +1,335 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2032,
+      "max": [
+        216.57449340820313,
+        135.29232788085938,
+        0.5892174243927002
+      ],
+      "min": [
+        -652.5794677734375,
+        -740.9052124023438,
+        -1.5514534711837769
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24384,
+      "componentType": 5126,
+      "count": 2032,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2032,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2880,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 48768,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        196.911376953125,
+        115.40509796142578,
+        0.42904913425445557
+      ],
+      "min": [
+        -632.9163818359375,
+        -721.3983154296875,
+        -1.3912851810455322
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49152,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16256,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 11520,
+      "componentType": 5125,
+      "count": 60,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Anthony Yanez (https://sketchfab.com/paulyanez)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/brick-block-super-mario-bros-c12a2715135b4f6a9816efdf90180a8c",
+      "title": "Brick Block (Super Mario Bros)"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11760,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16512,
+      "byteOffset": 11760,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49536,
+      "byteOffset": 28272,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 77808,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "03_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.376471,
+          0.0784314,
+          0.0,
+          1.0
+        ],
+        "roughnessFactor": 0.8929713596
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "02_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0133142929,
+          0.00496565,
+          0.0034953925,
+          1.0
+        ],
+        "roughnessFactor": 0.7543826220000001
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Box005_03 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Box005_02 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "8dec6ee2bae1454f96c87e53d8ca893b.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -1.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.9999999999999867,
+        -1.6292068884016882e-07,
+        -0.0,
+        -0.0,
+        6.0698715881617977e-05,
+        -372.56604003905755,
+        -0.0,
+        -1.7385883331298828,
+        308.552490234375,
+        180.5906982421875,
+        1.0
+      ],
+      "name": "Box005"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        219.9146728515625,
+        2.922459680121392e-05,
+        0.4814697504043579,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "Box005_03 - Default_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Box005_02 - Default_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
