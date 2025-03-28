@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AACelerate Training WebVR</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+<!--
+    <a-box position="0 5 15 " rotation="0 0 0" depth= "1" width="30" height="10"color="#4CC3D9"></a-box>  
+    <a-box position="0 5 -15 " rotation="0 0 0" depth= "1" width="30" height="10"color="#4CC3D9"></a-box>
+    <a-box position="15 5 0 " rotation="0 90 0" depth= "1" width="30" height="10"color="#4CC3D9"></a-box>
+    <a-box position="-15 5 0 " rotation="0 90 0" depth= "1" width="30" height="10"color="#4CC3D9"></a-box>
+    <a-plane position="0 0 0" rotation="-90 0 0" width="30" height="30" color="#7BC8A4"></a-plane>
+ -->
+   
+   
+    <!-- Sky background -->
+    <a-assets>
+      <img id="sky" src="/MODELS/clouds.jpg">
+<img id="ground" src="/MODELS/ground.jpg">
+<a-asset-item id="redbrick" src="/MODELS/bricks/scene.gltf"></a-asset-item>
 
+<!--<a-asset-item id="redblock" src="/MODELS/brick_block_super_mario_bros/scene.gltf"></a-asset-item> -->
+
+<a-asset-item id="site" src="/MODELS/construction_site/scene.gltf"></a-asset-item>
+<a-asset-item id="equiments" src="/MODELS/construction_tools__equipment/scene.gltf"></a-asset-item>
+
+<a-asset-item id="worker" src="/MODELS/half-life_construction_worker/scene.gltf"></a-asset-item>
+
+<a-asset-item id="site2" src="/MODELS/construction_site_building_site_architecture/scene.gltf"></a-asset-item>
+<a-asset-item id="brickstack" src="/MODELS/stacked_bricks_old_vintage/scene.gltf"></a-asset-item>
+<a-asset-item id="west" src="/MODELS/yunost_bldng1_west/scene.gltf"></a-asset-item>
+
+     <!--images
+      <img id="wall" src="/images/brown-aesthetic.jpg">-->
+  
+    </a-assets>
+    
+ 
+    <a-entity gltf-model="#redbrick" position=" -25 2 -10" scale="3 3 3"></a-entity>
+    <a-entity gltf-model="#redblock" position="-10 0 -10" scale="0.1 0.1 0.1"></a-entity>
+    <a-entity gltf-model="#site" position="-15 5 15 " scale="0.02 0.02 0.02"></a-entity>
+    <a-entity gltf-model="#equiments"  position="-12 1 -26 " scale=" 2 2 2"></a-entity>
+    <a-entity gltf-model="#worker"rotation="0 90 0" position="-27 1 -27" scale="0.05 0.05 0.05"></a-entity>
+    <a-entity gltf-model="#site2" position="0 -4 0" scale="0.3 0.3 0.3"></a-entity>
+    <a-entity gltf-model="#brickstack" position="-25 4 0" scale=" 0.4 0.4 0.4"></a-entity>
+    <a-entity gltf-model="#west" position="-4.365 0.125 -0.253" scale="1 1 1"></a-entity>
+<!--Fix thetext 
+    <a-entity text="value: ;" scale="11 11 11" rotation="0 90 0" color="#f6faf5" position="-4.800 3.591 -3.338"></a-entity>
+    <a-entity text="value: AT A GLANCE;" scale=" 7 7 7" rotation="0 270 0" color="#f6faf5" position="4.810 2.000 1.000"></a-entity>
+    -->
+    <a-plane  src="#ground" rotation="-90 0 0"  position=" 0 0 0" scale = " 70 70 70 "></a-plane>
+
+ <a-sky src="#sky"></a-sky>
+    <!--a-images-->
+  
+<!--<a-image src="#final wall" position="0 2.000 4.840" rotation="0 180 0" height="4" width="10"></a-image>
+  -->
+
+  </a-scene>
+</body>
+</html>
